@@ -1,40 +1,210 @@
-
-
-
 html {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
 }
 
+body{
+    margin-top: 13rem;
+}
+
+.background{
+    height: 50rem;
+    background-size: cover;
+    background-image: url("/maquetacion/assets/images/technologywithpurpose-bg.jpg");
+    background-attachment: fixed;
+}
+
+#navbar{
+    display: flex;
+    border-bottom: 1px solid gray; 
+    padding: 1% 8%; 
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+}
+
+#navbar-right{
+    display: flex;
+    align-items: center;
+}
+
 p {
-    margin-right: 2em;
+    margin-right: 2rem;
     font-weight: bold;
-    font-size: 0.9em;
+    font-size: 0.9rem;
     font-weight: 500;
 }
+
 
 button {
     background-color: white;
     border-radius: 30px;
-    padding: 0px 1.5em;
-    height: 2.5em;
-    border: 2px solid black;
-    font-size: 0.8em;
+    padding: 0 1.2rem;
+    height: 2.5rem;
+    border: 0.2rem solid black;
+    font-size: 0.8rem;
+    width: 11em;
+}
+
+
+#navbar-left img {
     width: 8em;
 }
 
-div#navbar-left img {
-    width: 8em;
+#butons{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem ;
 }
+
+.sumate {
+    margin-left: 1rem;
+    border: 0.2rem solid #6b53f0;
+    color: #6b53f0;
+}
+
+.content{
+    height: 15rem;
+    color: black;
+    padding-left: 2rem;
+}
+
+.first{
+    background-color: white;
+    color: black;
+}
+
+.first h1{
+    margin: 0 32%;
+    text-align: center;
+}
+
+.second{
+    background-color: #201b24;
+    color: white;
+    display: flex;
+    padding: 5rem 0;
+    align-items: center;
+}
+
+.impacto{
+    margin-left: 25%;
+    height: 12rem;
+    width: 20%;
+}
+
+.numeros{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.numeros li{/* 
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center; */
+    margin: 1rem;
+}
+
+
+.numero{
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+
+.third{
+    background-color: white;
+    height: auto;
+}
+
+    .third h2{
+        margin: 0.7rem 10%;
+    }
+    
+    .tarjeta{
+        display: flex;
+        align-items: center;
+        padding: 0 10%;
+    }
+    
+    .tarjeta img{
+        margin: 0.7rem 0;
+        width: 50rem;
+        border-radius: 0 4rem 4rem 4rem;
+    }
+
+    .tarjeta .info{
+        display: flex;
+        flex-direction: column;
+        padding-left: 5%;
+    }
+
+    .reverse{
+        flex-direction: row-reverse;
+    }
+
+    .reverse img{
+        border-radius: 4rem 4rem 0 4rem;
+
+        margin-bottom: 5rem;
+    }
+
+.fourth{
+    background-color: #f4f4f5;
+    height: auto;
+}
+
+    .equipo{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .tarjeta-equipo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 2rem;
+        background-color: white;
+        padding: 0 10%;
+        border-radius: 2rem 2rem 2rem 0;
+    }
+
+    .tarjeta-equipo img{
+        border-radius: 2rem 2rem 0 0;
+        min-width: 100%;
+    }
+
+    .tarjeta-equipo .info{
+        display: flex;
+        flex-direction: column;
+        padding-left: 5%;
+    }
+
+.fifth{
+    background-color: white;
+}
+.sixth{
+    background-color: #201b24;
+    color: white;
+}
+
 
 @media (width >= 2500px) {
     html {
-        font-size: 28px;
+        font-size: 1.6em;
+        color: blue;
     }
 }
 
 @media (width >= 3500px) {
     html {
-        font-size: 32px;
+        font-size: 2em;
+        color: brown;
     }
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,40 +9,213 @@
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">   
     <link rel="stylesheet" href="styles.css">
 </head>
-<body style="margin: 0;">
-    <div id="navbar" style="display: flex; border-bottom: 1px solid gray; padding: 14px 800px; justify-content: space-between;">
+
+<body>
+    <nav id="navbar">
         <div id="navbar-left">
-            <img src="technology-with-purpose.svg">
+            <img src="/maquetacion/assets/images/technology-with-purpose.svg">
         </div>
-        <div id="navbar-right" style="display: flex; align-items: center;">
-            <p>Nosotros</p>
-            <p>Programas</p>
-            <p>Capacitaciones</p>
-            <p>Alianzas</p>
-            <p>Contacto</p>
-            <button>Sumate +</button>
+        <ul id="navbar-right">
+            <il>
+                <p>Nosotros</p>
+            </il>
+            <il>
+                <p>Programas</p>
+            </il>
+            <il>
+                <p>Capacitaciones</p>
+            </il>
+            <il>
+                <p>Alianzas</p>
+            </il>
+            <il>
+                <p>Contacto</p>
+            </il>
+            <il><button>Sumate +</button></il>
+        </ul>
+    </nav>
+
+    <div class="content first">
+        <h1> Somos una Fundación dedicada a mejorar la calidad de vida de las personas y su entorno, a través de la
+            tecnología.</h1>
+        <div id="butons">
+            <button>Contactanos -></button>
+            <button class="sumate">Sumate +</button>
         </div>
     </div>
-    <div id="contact-form">
-        <form style="margin: 0 300px;" action="">
-            <div>
-                <input type="text" placeholder="Nombre y Apellido">
-                <input type="email" placeholder="Email">
-                <select name="" id="">
-                    <option value="">Programas</option>
-                    <option value="">Capacitaciones</option>
-                </select>
+    <div class="content second">
+        <div class="impacto">
+            <h2>. Impacto</h2>
+            <p>Buscamos construir alianzas y fortalecer vínculos para generar una transformación real en la comunidad.
+                Trabajamos para acercar la tecnología innovadora y disruptiva del sector privado hacia el sector social.
+            </p>
+        </div>
+        <ul class="numeros">
+            <li>
+                <samp class="numero">58</samp>
+                <p class="texto">Localidades</p>
+            </li>
+
+            <li>
+                <samp class="numero">+50</samp>
+                <p class="texto">Mentores</p>
+            </li>
+
+            <li>
+                <samp class="numero">301</samp>
+                <p class="texto">Participantes</p>
+            </li>
+        </ul>
+    </div>
+    <div class="background"></div>
+    <div class="content third">
+        <h2>.Programas</h2>
+        <article class="tarjeta">
+            <img src="/maquetacion/assets/images/programas-xacademy.jpg" alt="">
+            <div class="info">
+                <img src="/maquetacion/assets/images/xacademy.svg" alt="">
+                <p>xAcademy es un programa de formación en tecnología llevado adelante por la Fundación Tecnología con Propósito junto a Santex que busca promover un cambio positivo en la comunidad a través de la educación en IT, apuntando a lograr la inserción laboral de personas en el mundo tecnológico.</p>
+                <button>Más info-></button>
             </div>
-            <div>
+            
+        </article>
+        <article class="tarjeta reverse">
+            <img src="/maquetacion/assets/images/programas-robotica.jpg" alt="">
+            <div class="info">
+                <h3 class="subtitulo">Robótica educativa: la tecnología del futuro</h3>
+                <p>Durante el curso, los alumnos y alumnas a través de la robótica desarrollan la curiosidad, el autodidactismo y las habilidades blandas necesarias para afrontar la revolución tecnológica del siglo XXI.</p>
+                <button>Más info-></button>
+            </div>
+            
+        </article>
+
+        <h2>.Capacitaciones</h2>
+        <article class="tarjeta">
+            <img src="/maquetacion/assets/images/capacitaciones-estafas.jpg" alt="">
+            <div class="info">
+                <h3 class="subtitulo">Estafas virtuales: ¿cómo protegernos?</h3>
+                <p>Los canales de comunicación a través de medios digitales cobraron gran protagonismo a partir de la pandemia. Al mismo tiempo, se perfeccionan cada vez más rápido las modalidades de estafas y fraudes virtuales. En esta capacitación vas a aprender diferentes tips y consejos útiles para navegar de manera más segura.</p>
+                <button>Más info-></button>
+            </div>
+            
+        </article>
+        <article class="tarjeta reverse">
+            <img src="/maquetacion/assets/images/capacitaciones-seguridad.jpg" alt="">
+            <div class="info">
+                <h3 class="subtitulo">Seguridad informática para infancias</h3>
+                <p>¿Navegamos seguros en internet? La propuesta es una charla para niños y niñas donde se brindan herramientas de seguridad y autocuidado digital.</p>
+                <button>Más info-></button>
+            </div>
+        </article>
+    </div>
+
+  
+    <div class="content fourth">
+        <h2>.Equipo</h2>
+        <div class="equipo">
+
+            <article class="tarjeta-equipo">
+                <img src="/maquetacion/assets/images/juanSantiago.png" alt="">
+                <div class="info">
+                    <h3 class="nombre">Juan Santiago</h3>
+                    <h4 class="rol">Presidente</h4>
+                    <button>in</button>
+                </div>
+        </article>
+        <article class="tarjeta-equipo">
+            <img src="/maquetacion/assets/images/WalterAbrigo.png" alt="">
+            <div class="info">
+                <h3 class="nombre">Walter Abrigo</h3>
+                <h4 class="rol">Secretario</h4>
+                <button>in</button>
+            </div>
+        </article>
+        <article class="tarjeta-equipo">
+            <img src="/maquetacion/assets/images/GabrielaFernandez.png" alt="">
+            <div class="info">
+                <h3 class="nombre">Gabriela Fernandez</h3>
+                <h4 class="rol">Comisión Directiva</h4>
+                <button>in</button>
+            </div>
+        </article>
+        <article class="tarjeta-equipo">
+            <img src="/maquetacion/assets/images/GabrielDubini.png" alt="">
+            <div class="info">
+                <h3 class="nombre">Gabriel Dubini</h3>
+                <h4 class="rol">Tesorero</h4>
+                <button>in</button>
+            </div>
+        </article>
+        <article class="tarjeta-equipo">
+            <img src="/maquetacion/assets/images/FlorenciaD'Agostino.png" alt="">
+            <div class="info">
+                <h3 class="nombre">Florencia D'Agostino</h3>
+                <h4 class="rol">Dirección Ejecutiva</h4>
+                <button>in</button>
+            </div>
+        </article>
+        <article class="tarjeta-equipo">
+            <img src="/maquetacion/assets/images/CelesteTorresi.png" alt="">
+            <div class="info">
+                <h3 class="nombre">Celeste Torresi</h3>
+                <h4 class="rol">Comisión Directiva</h4>
+                <button>in</button>
+            </div>
+        </article>
+        <article class="tarjeta-equipo">
+            <img src="/maquetacion/assets/images/LuciaJaimez.png" alt="">
+            <div class="info">
+                <h3 class="nombre">Lucia Jaimez</h3>
+                <h4 class="rol">Directora Academy</h4>
+                <button>in</button>
+            </div>
+        </article>
+        <article class="tarjeta-equipo">
+            <img src="/maquetacion/assets/images/AgustínChino.png" alt="">
+            <div class="info">
+                <h3 class="nombre">Agustín Chino</h3>
+                <h4 class="rol">Coord. Área Inclusión Social</h4>
+                <button>in</button>
+            </div>
+        </article>
+        <article class="tarjeta-equipo">
+            <img src="/maquetacion/assets/images/EnzoDotto.png" alt="">
+            <div class="info">
+                <h3 class="nombre">Enzo Dotto</h3>
+                <h4 class="rol">Relaciones Institucionales</h4>
+                <button>in</button>
+            </div>
+        </article>
+        </div>
+    </div>
+    <div class="content fifth">
+        <h2>.Alianzas</h2>
+    </div>
+    <div class="content sixth">content sixth Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit amet laudantium, quis illo
+        voluptas, doloremque enim velit quaerat sint perferendis tenetur maiores, et iste quae aliquam libero tempora
+        ipsa hic?</div>
+        
+        <!-- <div id="contact-form">
+            <form style="margin: 0 300px;" action="">
+                <div>
+                    <input type="text" placeholder="Nombre y Apellido">
+                    <input type="email" placeholder="Email">
+                    <select name="" id="">
+                        <option value="">Programas</option>
+                        <option value="">Capacitaciones</option>
+                    </select>
+                </div>
+                <div>
                 <textarea name="" cols="30" rows="10"></textarea>
             </div>
             <div>
                 <button>Enviar</button>
             </div>
         </form>
-    </div>
+    </div> -->
 </body>
+
 </html>
